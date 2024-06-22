@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class p5 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("no 1= ");
+		int no1=sc.nextInt();
+		System.out.println("no 2= ");
+		int no2=sc.nextInt();
+		int add=no1+no2;
+		int mult=no1*no2;
+		System.out.println("the addition is "+add);
+		System.out.println("the multiplication is "+mult);
+		
+	}
+
+}
