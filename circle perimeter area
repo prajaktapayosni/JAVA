@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class p3 {
+public static void main(String args[])
+{
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter radius of circle");
+	double radius=sc.nextDouble();
+	double perimeter=2*3.17*radius;
+	double area=3.17*radius*radius;
+	System.out.println("the perimeter of cirlce is "+perimeter);
+	System.out.println("the area of cirlce is "+area);
+	
+}
+}
