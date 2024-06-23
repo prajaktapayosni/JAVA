@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class p9 {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter two nos");
+	int n1=sc.nextInt();
+	int n2=sc.nextInt();
+     System.out.println("enter your choice \n1.add\n2.sub\n3.mult ");
+     int n=sc.nextInt();
+     {
+    	 if(n==1)
+    	 {
+    		 System.out.println("add "+(n1+n2));
+    	 }
+    	 else if(n==2)
+    	 {
+    		 System.out.println("subtract "+(n1-n2));
+    	 }
+    	 else if(n==3)
+    		 System.out.println("multiply "+(n1*n2));
+     }
+	}
+
+}
